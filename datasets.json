@@ -31,7 +31,7 @@
       "symbol": "SENSEX",
       "strike_gap": 100,
       "lot_size": 20,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": "sensex_monthly",
