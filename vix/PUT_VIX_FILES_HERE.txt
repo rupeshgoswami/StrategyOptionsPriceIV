@@ -1,0 +1,6 @@
+Put India VIX files in this folder, then run:  python build_data.py
+
+- Daily: NSE India VIX historical CSVs (nseindia.com -> Historical Data -> India VIX), as downloaded.
+- 1-minute: CSV/Excel from your broker with a date-time (or date + time) column and a close/VIX column.
+- Or let the script download daily VIX:  python build_data.py --vix-download
+Any number of files; duplicates are removed. This text file is ignored.

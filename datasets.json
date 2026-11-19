@@ -1,0 +1,49 @@
+{
+  "datasets": [
+    {
+      "id": "nifty_weekly",
+      "underlying": "NIFTY",
+      "contract": "Weekly",
+      "label": "NIFTY Weekly",
+      "folder": "C:\\Users\\admin\\Desktop\\Rupesh\\IchartData_WeeklyFormatData\\src\\data\\NIFTY_WEEKLY",
+      "symbol": "NIFTY",
+      "strike_gap": 50,
+      "lot_size": 75,
+      "enabled": true
+    },
+    {
+      "id": "nifty_monthly",
+      "underlying": "NIFTY",
+      "contract": "Monthly",
+      "label": "NIFTY Monthly",
+      "folder": "C:\\Users\\admin\\Desktop\\Rupesh\\IchartData_WeeklyFormatData\\src\\data\\NIFTY",
+      "symbol": "NIFTY",
+      "strike_gap": 50,
+      "lot_size": 75,
+      "enabled": true
+    },
+    {
+      "id": "sensex_weekly",
+      "underlying": "SENSEX",
+      "contract": "Weekly",
+      "label": "SENSEX Weekly",
+      "folder": "C:\\Users\\admin\\Desktop\\Rupesh\\sensex_weekly_data\\Sensex_weekly\\src\\data\\SENSEX",
+      "symbol": "SENSEX",
+      "strike_gap": 100,
+      "lot_size": 20,
+      "enabled": false
+    },
+    {
+      "id": "sensex_monthly",
+      "underlying": "SENSEX",
+      "contract": "Monthly",
+      "label": "SENSEX Monthly",
+      "folder": "D:\\SENSEX_MONTHLY",
+      "symbol": "SENSEX",
+      "strike_gap": 100,
+      "lot_size": 20,
+      "enabled": false
+    }
+  ],
+  "_help": "One entry per data set. id = output folder name in app_data (letters, digits, _). underlying + contract = what the app shows (contract: Weekly or Monthly). folder = the folder with the daily parquet files. symbol = value in the 'symbol' column to keep. strike_gap = strike interval (NIFTY 50, SENSEX 100, BANKNIFTY 100). lot_size = default for the app's rupee value. enabled = false to skip. Optional: strike_window (points around spot to keep, default 20 x strike_gap)."
+}

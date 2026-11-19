@@ -1,0 +1,30 @@
+{
+  "id": "nifty_monthly",
+  "underlying": "NIFTY",
+  "contract": "Monthly",
+  "label": "NIFTY Monthly",
+  "symbol": "NIFTY",
+  "strike_gap": 50,
+  "lot_size": 75,
+  "sources": [
+    "C:\\Users\\admin\\Desktop\\Rupesh\\IchartData_WeeklyFormatData\\src\\data\\NIFTY"
+  ],
+  "expiry_column": "expiry",
+  "price": "ltp",
+  "first_day": "2026-04-01",
+  "last_day": "2026-10-26",
+  "trading_days": 140,
+  "expiries": 7,
+  "monthly_expiries": 7,
+  "holidays_inferred": [
+    "2026-04-03",
+    "2026-04-14",
+    "2026-05-01",
+    "2026-05-28",
+    "2026-06-26",
+    "2026-07-03",
+    "2026-09-14",
+    "2026-10-02",
+    "2026-10-20"
+  ]
+}
